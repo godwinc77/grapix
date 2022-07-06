@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noble</title>
+    <link rel="stylesheet" href="css/noble.css">
+    <link rel="shortcut icon" href="img/b1.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/0cd43d1304.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+    <body>
+        <header>
+            <h2>NOBLE</h2>
+            <img src="./img/b1.png" alt="">
+            <h2>GRAPIX</h2>
+        </header>
+        <nav>
+            <div class="nav-list">
+                <h3 id="home-click">HOME</h3>
+                <h3 id="gallery-click">GALLERY</h3>
+                <h3 id="rates-click">RATES</h3>
+                <h3 id="potraits-click">POTRAITS</h3>
+                <h3 id="services-click">SERVICES</h3>
+                <h3 id="about-click">ABOUT</h3>
+            </div>
+        </nav>
+        <section class="home" style="display: none;">
+            <section class="slideshow-con">
+                <div class="slideshow-text slideleft">
+                    <div class="slideshow-textli">
+                        <h3 class="slideshow-text1">GIVES</h3>
+                        <h3 class="slideshow-text2">YOU IMAGES THAT</h3>
+                        <h3 class="slideshow-text1">LASTS</h3>
+                    </div>
+                    <div class="slideshow-textli">
+                        <h3 class="slideshow-text1">FOR</h3>
+                        <h3 class="slideshow-text2">YOUR EYES</h3>
+                        <h3 class="slideshow-text1">ONLY</h3>
+                    </div>
+    
+                </div>
+                <div class="slideshow-container">
+                    <div class="slide-click">
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    </div>
+                    <div class="slide-list">
+                        <h3>STUDIO VIEWS</h3>
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 5</div>
+                            <img src="img/c3.png">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 5</div>
+                            <img src="img/c4.png">
+                        </div>
+                        
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 5</div>
+                            <img src="img/b4.jpg">
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">4 / 5</div>
+                            <img src="img/d1.png">
+                        </div>
+                        <div class="mySlides fade">
+                            <div class="numbertext">5 / 5</div>
+                            <img src="img/d2.png">
+                        </div>
+                        <div style="text-align:center">
+                              <span class="dot" onclick="currentSlide(1)"></span>
+                              <span class="dot" onclick="currentSlide(2)"></span>
+                              <span class="dot" onclick="currentSlide(3)"></span>
+                              <span class="dot" onclick="currentSlide(4)"></span>
+                              <span class="dot" onclick="currentSlide(5)"></span>
+                        </div>
+                    </div>
+                    <div class="slide-click">
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                </div>
+                <div class="slideshow-text slideright">
+                    <div class="slideshow-textli">
+                        <h3 class="slideshow-text1">MAKE UP</h3>
+                        <h3 class="slideshow-text2">IS ART,</h3>
+                        <h3 id="slideshow-text3">BEAUTY </h3>
+                        <h3 class="slideshow-text2">IS SPIRIT</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="bios">
+                <div class="bios-text">
+                    <h2>WELCOME TO NOBLE GRAPIX STUDIO</h2>
+                    <p>Noble Grapix is known for delivering the best quality pictures for it's customers,
+                     with the best equipment and surrondings, and leaving the customers coming for more.
+                     Here are some preview of it's work, well taken and edited to the customer's taste.
+                    </p>
+                </div>
+                <div class="bios-info">
+                    <div class="bios-images">
+                        <img src="./img/ab1.jpeg" alt="">
+                        <img src="./img/ab2.jpeg" alt="">
+                        <img src="./img/ab3.jpeg" alt="">
+                        <img src="./img/ab4.jpeg" alt="">
+                        <img src="./img/ab5.jpg" alt="">
+                    </div>
+                    <div class="bios-link">
+                        <h3 id="bios-word">SEE MORE &#8594;</h3>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="justklassic" style="display: none;">
+                <h3>in partnership with</h3>
+                <div class="justklassic-logo">
+                    <div class="justklassic-logo1">
+                        <h3>J</h3>
+                        <h4>ust</h4>
+                    </div>
+                    <div class="justklassic-logo2">
+                        <h3>K</h3>
+                        <h4>LASSIC</h4>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section class="gallery con" style="display: none;">
+            <div class="gallery-info">
+                <h3>PHOTOGRAPHY</h3>
+                <div class="gallery-pic">
+                    <img src="./img/gallery-pic/h1.jpg" alt="">
+                    <img src="./img/gallery-pic/h3.jpg" alt="">
+                    <img src="./img/gallery-pic/h5.jpg" alt="">
+                    <img src="./img/gallery-pic/h8.jpg" alt="">
+                    <img src="./img/gallery-pic/h10.jpg" alt="">
+                    <img src="./img/gallery-pic/h12.jpg" alt="">
+                    <img src="./img/gallery-pic/h2.jpg" alt="">
+                    <img src="./img/gallery-pic/h20.jpg" alt="">
+                    <img src="./img/gallery-pic/h17.jpg" alt="">
+                    <img src="./img/gallery-pic/h15.jpg" alt="">
+                </div>
+            </div>
+            <div class="gallery-info">
+                <h3>JUST KLASSIC MAKE UP</h3>
+                <div class="gallery-pic">
+                    <img src="./img/gallery-pic/j1.jpg" alt="">
+                    <img src="./img/gallery-pic/j2.jpg" alt="">
+                    <img src="./img/gallery-pic/j3.jpg" alt="">
+                    <img src="./img/gallery-pic/j4.jpg" alt="">
+                    <img src="./img/gallery-pic/j5.jpg" alt="">
+                    <img src="./img/gallery-pic/j6.jpg" alt="">
+                    <img src="./img/gallery-pic/j7.jpg" alt="">
+                    <img src="./img/gallery-pic/j8.jpg" alt="">
+                    <img src="./img/gallery-pic/ab1.jpeg" alt="">
+                    <img src="./img/gallery-pic/ab2.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="rates " style="display: none;">
+            <div class="price-list">
+                <div class="studio">
+                    <h2>STUDIO PACKAGES</h2>
+                    <div class="package-info">
+                        <div class="basic">
+                            <h3 class="first-text first">BASIC SESSION</h3>
+                            <h3 class="second-text">AMOUNT : 20K</h3>
+                            <div class="package-unlist">
+                                <div class="package-list">
+                                    <h4>4 Edited Pictures</h4>
+                                    <h4>2 Looks</h4>
+                                    <h4>1 Hour</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="standard">
+                            <h3 class="first-text">STANDARD SESSION</h3>
+                            <h3 class="second-text">AMOUNT : 30K</h3>
+                            <div class="package-unlist">
+                                <div class="package-list">
+                                    <h4>6 Edited Pictures</h4>
+                                    <h4>3 Looks</h4>
+                                    <h4>2 Hours</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="studio">
+                    <h2>OUTDOOR PACKAGES</h2>
+                    <div class="package-info">
+                        <div class="basic">
+                            <h3 class="first-text first">BASIC SESSION</h3>
+                            <h3 class="second-text">AMOUNT : 40K</h3>
+                            <div class="package-unlist">
+                                <div class="package-list">
+                                    <h4>6 Edited Pictures</h4>
+                                    <h4>2 Looks</h4>
+                                    <h4>1 Hour</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="standard">
+                            <h3 class="first-text">STANDARD SESSION</h3>
+                            <h3 class="second-text">AMOUNT : 50K</h3>
+                            <div class="package-unlist">
+                                <div class="package-list">
+                                    <h4>8 Edited Pictures</h4>
+                                    <h4>3 Looks</h4>
+                                    <h4>2 Hours</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="makeup-unlist">
+                <h3>MAKE-UP PACKAGE</h3>
+                <div class="makeup-info">
+                    <div class="makeup-list">
+                        <h4>STUDIO MAKE-UP : 12K</h4>
+                        <h4>HOME SERVICE : 25K</h4>
+                        <h4>BRIDAL MAKE-UP(WITHIN PORT HACOURT) : 60k</h4>
+                        <h4>BRIDAL MAKE-UP(OUTSIDE PORT HACOURT) : 100K</h4>
+                    </div>
+                    <div class="makeup-text">
+                        <h4 id="makeup-text1">GET THE BEST</h4>
+                        <h4 id="makeup-text2">MAKE-UP WITH</h4>
+                        <div id="makeup-text3">
+                            <h4 style="color: red;">JUST</h4>
+                            <h4 style="color: blue;">KLASSIC</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="book">
+                    <h4>BOOK A SESSION NOW</h4>
+                </div>
+            </div>
+        </section>
+        <section class="potraits con" style="display: none;">
+            <div class="indoor">
+                <div class="portraits-text">
+                    <h2>INDOOR PHOTOGRAPHY</h2>
+                </div>
+                <div class="potraits-pics">
+                    <img src="./img/indoor/h10.jpg" alt="">
+                    <img src="./img/indoor/h5.jpg" alt="">
+                    <img src="./img/indoor/h2.jpg" alt="">
+                    <img src="./img/indoor/h3.jpg" alt="">
+                    <img src="./img/indoor/h8.jpg" alt="">
+                    <img src="./img/gallery-pic/h12.jpg" alt="">
+                    <img src="./img/gallery-pic/h2.jpg" alt="">
+                    <img src="./img/gallery-pic/h20.jpg" alt="">
+                    <img src="./img/gallery-pic/h17.jpg" alt="">
+                    <img src="./img/gallery-pic/h15.jpg" alt="">
+                </div>
+            </div>
+            <div class="outdoor">
+                <div class="portraits-text">
+                    <h2>OUTDOOR PHOTOGRAPHY</h2>
+                </div>
+                <div class="potraits-pics">
+                    <img src="./img/indoor/h10.jpg" alt="">
+                    <img src="./img/indoor/h5.jpg" alt="">
+                    <img src="./img/indoor/h2.jpg" alt="">
+                    <img src="./img/indoor/h3.jpg" alt="">
+                    <img src="./img/indoor/h8.jpg" alt="">
+                    <img src="./img/gallery-pic/h12.jpg" alt="">
+                    <img src="./img/gallery-pic/h2.jpg" alt="">
+                    <img src="./img/gallery-pic/h20.jpg" alt="">
+                    <img src="./img/gallery-pic/h17.jpg" alt="">
+                    <img src="./img/gallery-pic/h15.jpg" alt="">
+                </div>
+            </div>
+            <div class="potrait">
+                <div class="portraits-text">
+                    <h2>PORTRAITS</h2>
+                </div>
+                <div class="potraits-pics">
+                    <img src="./img/indoor/h10.jpg" alt="">
+                    <img src="./img/indoor/h5.jpg" alt="">
+                    <img src="./img/indoor/h2.jpg" alt="">
+                    <img src="./img/indoor/h3.jpg" alt="">
+                    <img src="./img/indoor/h8.jpg" alt="">
+                    <img src="./img/gallery-pic/h12.jpg" alt="">
+                    <img src="./img/gallery-pic/h2.jpg" alt="">
+                    <img src="./img/gallery-pic/h20.jpg" alt="">
+                    <img src="./img/gallery-pic/h17.jpg" alt="">
+                    <img src="./img/gallery-pic/h15.jpg" alt="">
+                </div>
+            </div>
+            <div class="fashion">
+                <div class="portraits-text">
+                    <h2>FASHION PHOTOGRAPHY</h2>
+                </div>
+                <div class="potraits-pics">
+                    <img src="./img/indoor/h10.jpg" alt="">
+                    <img src="./img/indoor/h5.jpg" alt="">
+                    <img src="./img/indoor/h2.jpg" alt="">
+                    <img src="./img/indoor/h3.jpg" alt="">
+                    <img src="./img/indoor/h8.jpg" alt="">
+                    <img src="./img/gallery-pic/h12.jpg" alt="">
+                    <img src="./img/gallery-pic/h2.jpg" alt="">
+                    <img src="./img/gallery-pic/h20.jpg" alt="">
+                    <img src="./img/gallery-pic/h17.jpg" alt="">
+                    <img src="./img/gallery-pic/h15.jpg" alt="">
+                </div>
+            </div>
+            <div class="outdoor">
+                <div class="portraits-text">
+                    <h2>PRODUCT PHOTOGRAPHY</h2>
+                </div>
+                <div class="potraits-pics">
+                    <img src="./img/indoor/h10.jpg" alt="">
+                    <img src="./img/indoor/h5.jpg" alt="">
+                    <img src="./img/indoor/h2.jpg" alt="">
+                    <img src="./img/indoor/h3.jpg" alt="">
+                    <img src="./img/indoor/h8.jpg" alt="">
+                    <img src="./img/gallery-pic/h12.jpg" alt="">
+                    <img src="./img/gallery-pic/h2.jpg" alt="">
+                    <img src="./img/gallery-pic/h20.jpg" alt="">
+                    <img src="./img/gallery-pic/h17.jpg" alt="">
+                    <img src="./img/gallery-pic/h15.jpg" alt="">
+                </div>
+            </div>
+            <div class="outdoor">
+                <div class="portraits-text">
+                    <h2>MAKE-UP PHOTOGRAPHY</h2>
+                </div>
+                <div class="potraits-pics">
+                    <img src="./img/indoor/h10.jpg" alt="">
+                    <img src="./img/indoor/h5.jpg" alt="">
+                    <img src="./img/indoor/h2.jpg" alt="">
+                    <img src="./img/indoor/h3.jpg" alt="">
+                    <img src="./img/indoor/h8.jpg" alt="">
+                    <img src="./img/gallery-pic/h12.jpg" alt="">
+                    <img src="./img/gallery-pic/h2.jpg" alt="">
+                    <img src="./img/gallery-pic/h20.jpg" alt="">
+                    <img src="./img/gallery-pic/h17.jpg" alt="">
+                    <img src="./img/gallery-pic/h15.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="service ">
+           <div class="service-info" style="display: none;">
+                <h3>BOOKINGS</h3>
+                <h3>TRAINING</h3>
+                <h3>RENTAL</h3>
+           </div>
+           <div class="booking">
+                <div class="booking-unlist">
+                    <h2>BOOKINGS</h2>
+                    <div class="booking-info">
+                        <div class="booking-text-list">
+                            <div class="booking-text">
+                                <h3>NAME</h3>
+                                <input type="text">
+                            </div>
+                            <div class="booking-text">
+                                <h3>PHONE NUMBER</h3>
+                                <input type="tel">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="session">  
+                        <div class="session-info">
+                            <div class="session-list">
+                                <h3>SELECT YOUR SUITABLE PACKAGE</h3>
+                                <i class="fa-solid fa-angle-right right"></i>
+                                <i class="fa-solid fa-angle-down down" style="display: none;"></i>
+                            </div>
+                            <div class="session-text">
+                                <div class="session-text-info" style="display: none;">
+                                    <div class="session-text-list">
+                                        <h3>STUDIO PACKAGE</h3>
+                                       <div id="studio-click">
+                                        <i style="display: none;" class="fa-solid fa-circle click1 "></i>
+                                       </div>
+                                    </div>
+                                    <div class="session-text-list">
+                                        <h3>OUTDOOR PACKAGE</h3>
+                                        <div id="outdoor-click">
+                                            <i style="display: none;" class="fa-solid fa-circle click2"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="package" style="display: none;">
+                            <h3>CH00SE YOUR PACKAGE</h3>
+                            <div class="package-input">
+                                <div class="studio-package">
+                                    <div class="basic-package-sec">
+                                        <div class="basic-package">
+                                            <h3>BASIC SESSION</h3>
+                                            <h4>4 Edited Pictures</h4>
+                                            <h4>2 Looks</h4>
+                                            <h4>1 Hour</h4>
+                                            <h3 class="package-amount">AMOUNT:</h3>
+                                            <h3 class="package-amount">20k</h3>
+                                            <div class="session-select select1">
+                                                <i class="fas fa-check-square square "></i>
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                    <div class="standard-package-sec">
+                                        <div class="standard-package">
+                                            <h3>STANDARD SESSION</h3>
+                                            <h4>6 Edited Pictures</h4>
+                                            <h4>3 Looks</h4>
+                                            <h4>2 Hours</h4>
+                                            <h3 class="package-amount">AMOUNT:</h3>
+                                            <h3 class="package-amount">30k</h3>
+                                            <div class="session-select select2">
+                                                <i class="fas fa-check-square square"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                
+                                </div>
+                                <div class="outdoor-package" style="display: none;">
+                                    <div class="basic-package-sec">
+                                        <div class="basic-package outdoor-basic">
+                                            <h3>BASIC SESSION</h3>
+                                            <h4>6 Edited Pictures</h4>
+                                            <h4>2 Looks</h4>
+                                            <h4>1 Hour</h4>
+                                            <h3 class="package-amount">AMOUNT:</h3>
+                                            <h3 class="package-amount">40k</h3>
+                                            <div class="session-select select3">
+                                                <i class="fas fa-check-square square"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="standard-package-sec">
+                                        <div class="standard-package outdoor-standard">
+                                            <h3>STANDARD SESSION</h3>
+                                            <h4>8 Edited Pictures</h4>
+                                            <h4>3 Looks</h4>
+                                            <h4>2 Hours</h4>
+                                            <h3 class="package-amount">AMOUNT:</h3>
+                                            <h3 class="package-amount">50k</h3>
+                                            <div class="session-select select4">
+                                                <i class="fas fa-check-square square"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="booking-date">
+                            <div class="booking-date-info">
+                                <div class="booking-date-list">
+                                    <h3>BOOKING DATE</h3>
+                                    <div class="select-date">
+                                        <input type="time">
+                                        <input type="date">
+                                    </div>
+                                </div>
+                                <div class="booking-date-message">
+                                    <h3>MESSAGE</h3>
+                                    <input id="message" type="text">
+                                </div>
+                                <div class="select-submit">
+                                    <input type="submit" value="SUBMIT" >
+                                </div>
+                                <div id="screen">
+                                    <h5>SELECT A SESSION FIRST</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+           </div>
+        </section>
+        <footer>
+            <h3 id="footer-text">CONTACT US</h3>
+            <h3>+234 810 991 0656</h3>
+            <h3>© Noble Grapix Studio- All Rights Reserved</h3>
+        </footer>
+        <script src="js/noble.js"></script>
+
+    </body>
+</html>
